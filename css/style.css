@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(196, 182, 108);
+}
+
+header h1 {
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+main {
+  min-height: 86vh;
+  background-color: rgb(206, 194, 138);
+}
+
+main h2 {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 30px;
+}
+
+.input-players label {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 25px;
+}
+
+.input-players input {
+  width: 200px;
+}
+
+#players {
+  gap: 15px;
+  height: 150px;
+}
+
+#btn-login {
+  width: 70px;
+  height: auto;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+  padding: 3px 15px;
+  background-color: rgb(129, 199, 211);
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+#btn-login:hover {
+  background-color: rgb(129, 170, 231);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(196, 182, 108);
+}
+
+footer p {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(196, 182, 108);
+}
+
+header h1 {
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-color: rgb(206, 194, 138);
+}
+
+#current-player {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 25px;
+}
+
+#player1-wins,
+#player2-wins {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 17px;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 2px solid black;
+}
+
+.btn-game {
+  width: 300px;
+  height: 250px;
+  font-size: 65px;
+  background-color: rgb(129, 199, 211);
+  transition: 0.15s;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.btn-game:hover {
+  background-color: rgb(129, 170, 231);
+}
+
+.btn-game:disabled {
+  color: black;
+  border: 2px solid black;
+}
+
+.wins {
+  background-color: #48ff31;
+}
+
+#restart-game {
+  margin-top: 15px;
+  padding: 5px 10px;
+  background-color: rgb(151, 106, 235);
+  transition: 0.15s;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#restart-game:hover {
+  background-color: rgb(165, 129, 231);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(196, 182, 108);
+}
+
+footer p {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}

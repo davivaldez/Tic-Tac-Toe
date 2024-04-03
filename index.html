@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/index.js" defer></script>
+    <title>Jogo da Velha (Tic-Tac-Toe) - Início</title>
+  </head>
+  <body>
+    <header class="flex justify-center">
+      <h1>Jogo da Velha (Tic-Tac-Toe)</h1>
+    </header>
+
+    <main class="flex flex-column align-center justify-center">
+      <h2>Digite o nome dos dois jogadores</h2>
+
+      <section id="players" class="flex flex-column justify-center align-center">
+        <div class="input-players">
+          <label for="player1">Jogador 1: </label>
+          <input type="text" name="player1" id="player1" />
+        </div>
+
+        <div class="input-players">
+          <label for="player2">Jogador 2: </label>
+          <input type="text" name="player2" id="player2" />
+        </div>
+
+        <button id="btn-login" onclick="playGame()">Jogar</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
